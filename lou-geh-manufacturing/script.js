@@ -49,9 +49,8 @@ function fetchProducts() {
     fetch('http://localhost/lou-geh-manufacturing/api.php')
         .then(response => response.json())
         .then(data => {
-            // Display products in the front-end
-            // ...
-        });
+         
+                    });
 		
 }
 
