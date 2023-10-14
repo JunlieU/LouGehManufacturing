@@ -1,0 +1,53 @@
+/* Style your web page here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#product-management, #component-management, #supplier-management {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#product-list, #component-list, #supplier-list {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
