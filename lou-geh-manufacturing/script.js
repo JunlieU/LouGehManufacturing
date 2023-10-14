@@ -1,4 +1,4 @@
-// Sample data for products, components, and suppliers.
+
 const products = [
     { id: 1, name: 'Product 1', quantity: 100 },
     { id: 2, name: 'Product 2', quantity: 50 },
@@ -15,10 +15,10 @@ const suppliers = [
     { id: 2, name: 'Supplier 2' },
 ];
 
-// Function to display products, components, and suppliers in the list.
+
 function displayProducts() 
 {
-    // Display products
+  
     const productList = document.getElementById('product-list');
     productList.innerHTML = '';
     products.forEach((product) => {
@@ -27,7 +27,7 @@ function displayProducts()
         productList.appendChild(li);
     });
 
-    // Display components
+    
     const componentList = document.getElementById('component-list');
     componentList.innerHTML = '';
     components.forEach((component) => {
@@ -36,7 +36,7 @@ function displayProducts()
         componentList.appendChild(li);
     });
 
-    // Display suppliers
+   
     const supplierList = document.getElementById('supplier-list');
     supplierList.innerHTML = '';
     suppliers.forEach((supplier) => {
@@ -44,7 +44,7 @@ function displayProducts()
         li.innerText = `Supplier ID: ${supplier.id}, Name: ${supplier.name}`;
         supplierList.appendChild(li);
     });
-	// Function to fetch and display products
+	
 function fetchProducts() {
     fetch('http://localhost/lou-geh-manufacturing/api.php')
         .then(response => response.json())
@@ -55,7 +55,7 @@ function fetchProducts() {
 		
 }
 
-// Call fetchProducts() to load products when the page loads or when needed.
+
 
 }
 
