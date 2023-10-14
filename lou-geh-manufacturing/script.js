@@ -59,7 +59,6 @@ function fetchProducts() {
 
 }
 
-// Call the function to display data when the page loads.
+
 window.addEventListener('load', displayProducts);
 
-// TODO: Implement functionality to add and manage products, components, and suppliers.
